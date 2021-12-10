@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "element_api"
+version = "0.1.0"
+description = "Convert any python module to FastAPI compatible server. YoCo!"
+authors = ["yashbonde <bonde.yash97@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fire = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = [
+  "poetry-core>=1.0.0",
+  "setuptools"
+]
+build-backend = "poetry.core.masonry.api"
